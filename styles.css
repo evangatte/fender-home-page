@@ -1,0 +1,154 @@
+#top-nav a {
+    color: #A9A9A9;
+}
+
+#navbar {
+     background-color: #FC4A1A;
+     background-color: #F7B733;
+    background: #EFEFEF;
+}
+
+#navbar a {
+     color: #A9A9A9;
+    color: black;
+}
+
+.slider-card-body {
+    position: absolute;
+    bottom: 10px;
+} 
+
+.whats-new {
+    position: relative;
+}
+
+.whats-new::after {
+    content: "";
+    background-color: #DD1923;
+    width: 60px;
+    height: 5px;
+    position: absolute;
+    top: -20px;
+    left: 0px;
+}
+
+.new-guitar {
+    position: relative;
+}
+
+.new-guitar::after {
+    height: 20px;
+    width: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #DD1923;
+    color: white;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: 'NEW';
+    position: absolute; 
+}
+
+.fender-feed {
+    transition: transform(0.5s);
+
+}
+
+.fender-feed:hover {
+    transform: translateY(-5px);
+}
+
+#fender-feed-one {
+    position: relative;
+}
+
+
+
+#fender-feed-one::after {
+    z-index: -1;
+    height: 140px;
+    width: 500px;
+    background-color: #DD1923;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 32px;
+    padding-right: 100px;
+    top: -100px;
+    left: -10px;
+    position: absolute;
+    content: "FENDER FEED";
+}
+
+#fender-feed-one::before {
+    background: white;
+    font-size: 27px;
+    font-weight: bold;
+    z-index: 1;
+    height: 120px;
+    width: 430px;
+    padding-top: 30px;
+    content: "What is the Difference Between Major and Minor Chords?";
+    text-align: left;
+    position: absolute;
+    bottom: -70px;
+}
+
+#fender-feed-two {
+    position: relative;
+}
+
+#fender-feed-two::before {
+    background: white;
+    font-size: 27px;
+    font-weight: bold;
+    z-index: 1;
+    height: 120px;
+    width: 430px;
+    padding-top: 30px;
+    content: "A Guide to 3 common Guitar Chord Progressions for Beginners";
+    text-align: left;
+    position: absolute;
+    bottom: -70px;
+}
+
+#feed-sec-row-one {
+    position: relative;
+}
+
+#feed-sec-row-one::before {
+    background: white;
+    font-size: 27px;
+    font-weight: bold;
+    z-index: 1;
+    height: 120px;
+    width: 430px;
+    padding-top: 30px;
+    content: "Learn to play R&B / Soul Songs with Fender Play";
+    text-align: left;
+    position: absolute;
+    bottom: -70px;
+}
+
+#feed-sec-row-two {
+    position: relative;
+}
+
+#feed-sec-row-two::before {
+    background: white;
+    font-size: 27px;
+    font-weight: bold;
+    z-index: 1;
+    height: 120px;
+    width: 430px;
+    padding-top: 30px;
+    content: "Tips for learning How to Play Rhythm Guitar";
+    text-align: left;
+    position: absolute;
+    bottom: -70px;
+}
+
+#accessories {
+    margin-top: 100px;
+}
