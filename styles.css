@@ -156,6 +156,7 @@
 #footer {
     color: white;
     padding: 0 90px;
+    background-color: #121212;
 }
 
 #signup-wrapper {
@@ -163,41 +164,51 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    height: 50px;
-    background: black;
+    height: 70px;
+    background: #121212;
+    /* border: solid; */
 }
 
 #email-input {
-    background-color: black;
+    background-color: #121212;
+    color: #CCCCCC;
+    border: none;
+    outline: none;
+    list-style: none;
 }
 
 #footer-btn {
     background-color: #d52b1e;
     color: white;
     border: none;
-    height: 30px;
-    width: 100px;
+    height: 40px;
+    width: 125px;
 }
 
-.footer-flex-container {
-    gap: 20px;
-}
 
+
+#footer .row p {
+    color: #CCCCCC;
+    font-size: 20px;
+}
 
 #footer ul li {
-    color: white;
     list-style: none;
-    padding-top: 10px;
+    padding-top: 17px;
 }
 
 #footer ul li a {
-    color: white;
+    color: #CCCCCC;
+    font-size: 14px;
     text-decoration: none;
 }
 
+
+
 .footer-col h3 {
-    font-size: 20px;
-    padding-top: 20px;
+    font-size: 14px;
+    color: #F9F9F9;
+    padding-top: 30px;
 }
 
 
