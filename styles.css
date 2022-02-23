@@ -24,7 +24,7 @@
 
 .whats-new::after {
     content: "";
-    background-color: #DD1923;
+    background-color: #d52b1e;
     width: 60px;
     height: 5px;
     position: absolute;
@@ -69,7 +69,7 @@
     z-index: -1;
     height: 140px;
     width: 500px;
-    background-color: #DD1923;
+    background-color: #d52b1e;
     color: white;
     font-size: 40px;
     font-weight: bolder;
@@ -152,3 +152,52 @@
 #accessories {
     margin-top: 100px;
 }
+
+#footer {
+    color: white;
+    padding: 0 90px;
+}
+
+#signup-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 50px;
+    background: black;
+}
+
+#email-input {
+    background-color: black;
+}
+
+#footer-btn {
+    background-color: #d52b1e;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 100px;
+}
+
+.footer-flex-container {
+    gap: 20px;
+}
+
+
+#footer ul li {
+    color: white;
+    list-style: none;
+    padding-top: 10px;
+}
+
+#footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-col h3 {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+

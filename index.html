@@ -157,10 +157,9 @@
         <!-- FENDER FEED -->
 
         <!-- QUESTION to get the space needed between this row and the last should i just use css?
-        notice i have mt-5 on the rown and the columns. -->
+        notice i have mt-5 on the row and the columns. -->
 
         <!-- also notice the sizing of my images are farther form the edge of the screen than theirs because of my use of .containers.  -->
-        <!-- also how can i add the "play" and the "how-to" -->
         <div class="row mt-5 pt-5 text-center">
             <div class="col-sm mt-5" id="fender-feed-one">
                 <a href="#">
@@ -174,7 +173,7 @@
             </div>
         </div>
 
-        <div class="row mt-5 border pt-5 text-center">
+        <div class="row mt-5 pt-5 text-center">
             <div class="col-sm mt-5" id="feed-sec-row-one">
                 <a href="#">
                     <img src="http://dummyimage.com/500x300/" class="fender-feed" alt="">
@@ -192,33 +191,33 @@
             </div>
         </div>
 
-        <div class="row mt-5 text-center border-bottom pb-5">
+        <div class="row mt-5 text-center pb-5">
             <div class="col-sm new-guitar">
                 <figure class="figure">
                     <img src="http://dummyimage.com/240x480/" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                    <figcaption class="figure-caption text-left mt-1">George Harrison Rosewood Telecaster</figcaption>
-                    <figcaption class="text-left mt-4"><strong>$2,899.99</strong></figcaption>
+                    <figcaption class="figure-caption text-left mt-1">Ombré Strap</figcaption>
+                    <figcaption class="text-left mt-4"><strong>$29.99</strong></figcaption>
                 </figure>
             </div>
             <div class="col-sm new-guitar">
                 <figure class="figure">
                     <img src="http://dummyimage.com/240x480/" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                    <figcaption class="figure-caption text-left mt-1">PO-0229E Orchestro</figcaption>
-                    <figcaption class="text-left mt-4"><strong>$829.99</strong></figcaption>
+                    <figcaption class="figure-caption text-left mt-1">Mini Deluxe Amp, Red</figcaption>
+                    <figcaption class="text-left mt-4"><strong>$49.99</strong></figcaption>
                 </figure>
             </div>
             <div class="col-sm new-guitar">
                 <figure class="figure">
                     <img src="http://dummyimage.com/240x480/" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                    <figcaption class="figure-caption text-left mt-1">PD-220E Deadnought</figcaption>
-                    <figcaption class="text-left mt-4"><strong>$829.99</strong></figcaption>
+                    <figcaption class="figure-caption text-left mt-1">Fender® Professional Pedal Board</figcaption>
+                    <figcaption class="text-left mt-4"><strong>$219.99</strong></figcaption>
                 </figure>
             </div>
             <div class="col-sm new-guitar">
                 <figure class="figure">
                     <img src="http://dummyimage.com/240x480/" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                    <figcaption class="figure-caption text-left mt-1">PS-220E Parlor</figcaption>
-                    <figcaption class=" text-left mt-4"><strong>$829.99</strong></figcaption>
+                    <figcaption class="figure-caption text-left mt-1">Limited Edition Festive Strap</figcaption>
+                    <figcaption class=" text-left mt-4"><strike>$27.99</strike> <span class="pl-3" style="color: red;"><strong>$9.99</strong></span></figcaption>
                 </figure>
             </div>
         </div>
@@ -227,17 +226,33 @@
 
 
     <!-- footer -->
-    <div class="container-fluid bg-dark mt-5 pt-5">
+    <div class="container-fluid bg-dark mt-5 pt-5 px-4" id="footer">
         <div class="row">
-            <div class="col-sm-12 pt-3">
+            <div class="col-sm-12 pl-0 pt-3 border">
                 <img src="http://dummyimage.com/150x75/" alt="">
             </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <h1><strong>Don't miss out!</strong></h1>
+            </div>
+        </div>
         </div>
         <div class="row">
-            <div class="col-sm-12 d-flex justify-content-between footer-flex-container">
-                <div class="footer-col">
-                    <ul>
-                        <h3>Products</h3>
+            <div class="col-sm-6 pl-0">
+                <p>Be the First to know about new products , featured <br> content, exclusive offers and giveaways.</p>
+            </div>
+            <div class="col-sm-6">
+                <div id="signup-wrapper" class="">
+                    <input class="border border-danger w-75" type="text" id="email-input" placeholder="ENTER EMAIL ADDRESS">
+                    <button id="footer-btn"><strong>SIGN UP</strong></button>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5 pt-3 d-flex justify-content-between">
+            <!-- <div class="col-sm-12 d-flex justify-content-between footer-flex-container"> -->
+                <div class="footer-col text-left border-top">
+                    <ul class="pl-0">
+                        <h3><strong>Products</strong></h3>
                         <li><a href="#">Electric Guitars</a></li>
                         <li><a href="#">Stratocaster</a></li>
                         <li><a href="#">Telecaster</a></li>
@@ -248,9 +263,9 @@
                         <li><a href="#">Fender Custom Shop</a></li>
                     </ul>
                 </div>
-                <div class="footer-col">
-                    <ul>
-                        <h3>Company</h3>
+                <div class="footer-col border-top">
+                    <ul class="pl-0">
+                        <h3><strong>Company</strong></h3>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Contact Us</a></li>
                         <li><a href="#">Careers</a></li>
@@ -259,9 +274,9 @@
                         <li><a href="#">Affiliate Program</a></li>
                     </ul>
                 </div>
-                <div class="footer-col">
-                    <ul>
-                        <h3>More from Fender</h3>
+                <div class="footer-col border-top">
+                    <ul class="pl-0">
+                        <h3><strong>More from Fender</strong></h3>
                         <li><a href="#">Online Guitar Tuner</a></li>
                         <li><a href="#">Tuner App</a></li>
                         <li><a href="#">Fender Play Gift Cards</a></li>
@@ -271,9 +286,9 @@
                         <li><a href="#">Discount</a></li>
                     </ul>
                 </div>
-                <div class="footer-col">
-                    <ul>
-                        <h3>Customer Service</h3>
+                <div class="footer-col border-top">
+                    <ul class="pl-0">
+                        <h3><strong>Customer Service</strong></h3>
                         <li><a href="#">Support</a></li>
                         <li><a href="#">Find a Dealer</a></li>
                         <li><a href="#">Store Policies</a></li>
@@ -282,15 +297,15 @@
                         <li><a href="#">Register Your Fender</a></li>
                     </ul>
                 </div>
-                <div class="footer-col">
-                    <ul>
-                        <h3>Account</h3>
+                <div class="footer-col border-top">
+                    <ul class="pl-0">
+                        <h3><strong>Account</strong></h3>
                         <li><a href="#">My Account</a></li>
                         <li><a href="#">Order Statues</a></li>
                         <li><a href="#">Returns & Exchanges</a></li>
                     </ul>
                 </div>
-            </div>
+            <!-- </div> -->
         </div>
     </div>
     
