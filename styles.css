@@ -1,18 +1,21 @@
-#top-nav a {
-    color: #A9A9A9;
+#top-nav {
+    
 }
 
-#navbar {
-     background-color: #FC4A1A;
-     background-color: #F7B733;
-    background: #EFEFEF;
+.dropdown-menu {
+    outline: none;
+    border: none;
 }
 
-#navbar a {
-     color: #A9A9A9;
-    color: black;
-}
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  nav ul li a {
+      font-size: 12px;
+  }
+  
 .slider-card-body {
     position: absolute;
     bottom: 10px;
